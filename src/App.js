@@ -1,14 +1,12 @@
+import Hero from "./Components/Hero/Hero";
 import Navbar from "./NavBar/Navbar";
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <div className="relative bg-yellow-400 h-72">
-        <div className="py-10 pl-4">
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p>I'm Francis Steven</p>
-        </div>
+      <div className="relative bg-yellow-400">
+        <Hero />
         <div className="custom-shape-divider-bottom-1658832839">
           <svg
             data-name="Layer 1"
