@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <nav className="px-2 py-2 bg-white">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="#" class="flex items-center">
+        <a href="#" className="flex items-center">
           {/* image logo  here */}
           <span className="self-center text-xl font-semibold whitespace-nowrap">
             Super Six
@@ -47,7 +47,7 @@ export default function Navbar() {
                 data-dropdown-toggle="dropdownNavbar"
                 className="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-800 border-b hover:text-gray-900 md:hover:bg-transparent md:border-0  md:p-0 md:w-auto"
               >
-                Dropdown{" "}
+                Team{" "}
                 <svg
                   className="ml-1 w-4 h-4"
                   aria-hidden="true"
@@ -101,7 +101,7 @@ export default function Navbar() {
                     href="#"
                     class="block py-2 px-4 text-sm text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
                   >
-                    Sign out
+                    Bridget Chirimbani
                   </a>
                 </div>
               </div>
@@ -111,15 +111,7 @@ export default function Navbar() {
                 href="#"
                 className="block py-2 pr-4 pl-3 text-gray-800 border-b hover:text-gray-900 md:hover:bg-transparent md:border-0 md:p-0"
               >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-gray-800 border-b hover:text-gray-900 md:hover:bg-transparent md:border-0 md:p-0"
-              >
-                Pricing
+                About
               </a>
             </li>
             <li>

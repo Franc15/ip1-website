@@ -5,8 +5,10 @@ export default function App() {
     <div>
       <Navbar />
       <div className="relative bg-yellow-400 h-72">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        <p>I'm Francis Steven</p>
+        <div className="py-10 pl-4">
+          <h1 className="text-3xl font-bold underline">Hello world!</h1>
+          <p>I'm Francis Steven</p>
+        </div>
         <div className="custom-shape-divider-bottom-1658832839">
           <svg
             data-name="Layer 1"
